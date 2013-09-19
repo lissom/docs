@@ -78,6 +78,9 @@ directories. You can run a :program:`mongos` instance on a system that
 runs other cluster components, such as on an application server or a
 server running a :program:`mongod` process. By default, a
 :program:`mongos` instance runs on port ``27017``.
+Something needs to change here.  Not sure exactly what.  Putting Mongos with with mongod can be bad.
+Mongos with application servers seems to be standard practice.
+
 
 When you start the :program:`mongos` instance, specify the hostnames of
 the three config servers, either in the configuration file or as command
